@@ -94,6 +94,11 @@ function App() {
               See All Data
             </button>
           </Link>
+          <Link to="/footer">
+            <button className="text-white btn btn-info normal-case">
+              See Footer
+            </button>
+          </Link>
         </div>
         <form onSubmit={handleSubmit} className="text-white space-y-4">
           <div>

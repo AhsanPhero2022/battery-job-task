@@ -29,7 +29,7 @@ const AllSaveData = () => {
         All submitted data: {user.length}
       </h2>
 
-      <div className=" lg:grid lg:grid-cols-3 lg:gap-4">
+      <div className="shadow-lg lg:grid md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {user.map((category) => (
           <Sectors key={category.id} category={category} />
         ))}

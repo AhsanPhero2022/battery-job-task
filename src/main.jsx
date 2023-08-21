@@ -8,6 +8,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Footer from './Footer/Footer.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/details',
     element: <Details></Details>
+  },
+  {
+    path: '/footer',
+    element: <Footer></Footer>
   }
 ]);
 
